@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0085E2CE1680B7C2005B7697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0085E2CD1680B7C2005B7697 /* Foundation.framework */; };
+		0085E2D11680B7C2005B7697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0085E2D01680B7C2005B7697 /* main.m */; };
+		0085E2D51680B7C2005B7697 /* BlockSendData.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0085E2D41680B7C2005B7697 /* BlockSendData.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0085E2C71680B7C2005B7697 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0085E2D51680B7C2005B7697 /* BlockSendData.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0085E2C91680B7C2005B7697 /* BlockSendData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockSendData; sourceTree = BUILT_PRODUCTS_DIR; };
+		0085E2CD1680B7C2005B7697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0085E2D01680B7C2005B7697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0085E2D31680B7C2005B7697 /* BlockSendData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockSendData-Prefix.pch"; sourceTree = "<group>"; };
+		0085E2D41680B7C2005B7697 /* BlockSendData.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BlockSendData.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0085E2C61680B7C2005B7697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085E2CE1680B7C2005B7697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0085E2BE1680B7C2005B7697 = {
+			isa = PBXGroup;
+			children = (
+				0085E2CF1680B7C2005B7697 /* BlockSendData */,
+				0085E2CC1680B7C2005B7697 /* Frameworks */,
+				0085E2CA1680B7C2005B7697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0085E2CA1680B7C2005B7697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0085E2C91680B7C2005B7697 /* BlockSendData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0085E2CC1680B7C2005B7697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0085E2CD1680B7C2005B7697 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0085E2CF1680B7C2005B7697 /* BlockSendData */ = {
+			isa = PBXGroup;
+			children = (
+				0085E2D01680B7C2005B7697 /* main.m */,
+				0085E2D41680B7C2005B7697 /* BlockSendData.1 */,
+				0085E2D21680B7C2005B7697 /* Supporting Files */,
+			);
+			path = BlockSendData;
+			sourceTree = "<group>";
+		};
+		0085E2D21680B7C2005B7697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0085E2D31680B7C2005B7697 /* BlockSendData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0085E2C81680B7C2005B7697 /* BlockSendData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0085E2D81680B7C2005B7697 /* Build configuration list for PBXNativeTarget "BlockSendData" */;
+			buildPhases = (
+				0085E2C51680B7C2005B7697 /* Sources */,
+				0085E2C61680B7C2005B7697 /* Frameworks */,
+				0085E2C71680B7C2005B7697 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockSendData;
+			productName = BlockSendData;
+			productReference = 0085E2C91680B7C2005B7697 /* BlockSendData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0085E2C01680B7C2005B7697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = leslie;
+			};
+			buildConfigurationList = 0085E2C31680B7C2005B7697 /* Build configuration list for PBXProject "BlockSendData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0085E2BE1680B7C2005B7697;
+			productRefGroup = 0085E2CA1680B7C2005B7697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0085E2C81680B7C2005B7697 /* BlockSendData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0085E2C51680B7C2005B7697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0085E2D11680B7C2005B7697 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0085E2D61680B7C2005B7697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0085E2D71680B7C2005B7697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0085E2D91680B7C2005B7697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockSendData/BlockSendData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0085E2DA1680B7C2005B7697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockSendData/BlockSendData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0085E2C31680B7C2005B7697 /* Build configuration list for PBXProject "BlockSendData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0085E2D61680B7C2005B7697 /* Debug */,
+				0085E2D71680B7C2005B7697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0085E2D81680B7C2005B7697 /* Build configuration list for PBXNativeTarget "BlockSendData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0085E2D91680B7C2005B7697 /* Debug */,
+				0085E2DA1680B7C2005B7697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0085E2C01680B7C2005B7697 /* Project object */;
+}
